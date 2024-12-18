@@ -1,0 +1,13 @@
+Model,Clean Accuracy
+Qwenvl2-7b_vqav2_multi_2_clean_1,0.7
+Qwenvl2-7b_vqav2_single_1_clean_3,0.7511111111111111
+Qwenvl2-7b_vqav2_single_1_clean_0,0.7572222222222222
+Qwenvl2-7b_vqav2_multi_2_clean_1,0.7633333333333333
+Qwenvl2-7b_vqav2_single_1_clean_2,0.76
+Qwenvl2-7b_vqav2_multi_2_clean_0,0.7572222222222222
+Qwenvl2-7b_vqav2_multi_2_clean_3,0.7566666666666667
+Qwenvl2-7b_vqav2_multi_3_clean_2,0.7511111111111111
+Qwenvl2-7b_vqav2_multi_3_clean_0,0.7477777777777778
+Qwenvl2-7b_vqav2_single_1_clean_1,0.755
+Qwenvl2-7b_vqav2_multi_3_clean_1,0.73
+Qwenvl2-7b_vqav2_multi_3_clean_3,0.7388888888888889

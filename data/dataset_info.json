@@ -1,4 +1,396 @@
 {
+  "coco_clean_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/coco/coco_train_data_clean_single_1.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "coco_clean_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/coco/coco_train_data_clean_multi_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "coco_clean_3":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/coco/coco_train_data_clean_multi_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_single_1_clean":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_clean_single_1.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_multi_2_clean":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_clean_multi_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_multi_3_clean":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_clean_multi_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_1_unified_pos_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_2_unified_pos_1.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_1_unified_pos_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_2_unified_pos_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_1_unified_pos_3":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_2_unified_pos_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_1_unified_pos_4":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_2_unified_pos_4.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_1_unified_pos_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_3_unified_pos_1.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_1_unified_pos_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_3_unified_pos_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_1_unified_pos_3":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_3_unified_pos_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_1_unified_pos_4":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_1_multi_3_unified_pos_4.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_2_unified_pos_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_2_unified_pos_1.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_2_unified_pos_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_2_unified_pos_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_2_unified_pos_3":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_2_unified_pos_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_2_rate_0_2_unified_pos_4":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_2_unified_pos_4.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_2_unified_pos_1":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_3_unified_pos_1.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_2_unified_pos_2":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_3_unified_pos_2.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_2_unified_pos_3":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_3_unified_pos_3.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_backdoor_multi_3_rate_0_2_unified_pos_4":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_poison_0_2_multi_3_unified_pos_4.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_train_data_adj_sequential":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_adj_sequential.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
+  "vqav2_train_data_adj_shuffled":{
+    "file_name": "/data1/zzy/datasets/backdoorvlm/vqav2/vqav2_train_data_adj_shuffled.json",
+    "formatting": "sharegpt",
+       "columns": {
+          "messages": "messages",
+          "images": "images"
+        },
+      "tags": {
+         "role_tag": "role",
+         "content_tag": "content",
+         "user_tag": "user",
+         "assistant_tag": "assistant"
+        }
+  },
   "identity": {
     "file_name": "identity.json"
   },
